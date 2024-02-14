@@ -1,0 +1,22 @@
+{% extends 'main.html' %}
+
+{% block content  %}
+
+<div>
+    <form method="post" action="" style="width: 300px; margin: 0 auto; padding: 20px; border: 1px solid #000; border-radius: 5px;">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="Submit" style="background-color: #4CAF50; /* Green */
+		border: none;
+		color: white;
+		padding: 10px 20px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: pointer;
+		border-radius: 5px;"></input>
+</div>
+
+{% endblock content %}
