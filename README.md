@@ -8,8 +8,6 @@ Welcome to the Django Room Management App! This web application allows users to 
 -   [Technologies Used](#technologies-used)
 -   [How to Use](#how-to-use)
 -   [Project Structure](#project-structure)
--   [Contributing](#contributing)
--   [License](#license)
 
 ## Key Features
 
